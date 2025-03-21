@@ -16,7 +16,7 @@ import com.reddy.JopPortal.Service.PostRepository;
 import com.reddy.JopPortal.Service.SearchReporitory;
 
 @RestController
-@CrossOrigin("http://localhost:3004")
+@CrossOrigin(origins = "*")
 public class PostController {
 
     @Autowired
